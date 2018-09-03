@@ -9,10 +9,6 @@ class ArticlesController < ApplicationController
     end
     
 
-    def talk
-        
-    end
-    
     def show
         @article = Article.find(params[:id])
     end
