@@ -1,4 +1,4 @@
 class ApplicationController < ActionController::Base
-    # comment
-    
+    # comment 2
+
 end
