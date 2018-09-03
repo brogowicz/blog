@@ -8,6 +8,11 @@ class ArticlesController < ApplicationController
         @articles = Article.all
     end
     
+
+    def talk
+        
+    end
+    
     def show
         @article = Article.find(params[:id])
     end
@@ -47,9 +52,6 @@ class ArticlesController < ApplicationController
         redirect_to articles_path
     end  
 
-    def talk
-        
-    end
 
     private
     def article_params
